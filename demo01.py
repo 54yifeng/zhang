@@ -131,4 +131,7 @@ print(a+b)
 # del a[3]
 # print(a)
 
-#
+# 练习：获取用户输入的个人信息，并存储到字典中
+# 个人信息包括了，name,age,sex.
+a = {"name":input("姓名: "),"age":input("年龄: "),"sex":input("性别: ")}
+print(a)
