@@ -28,3 +28,31 @@ age = int(input("请输入年龄："))
 #     print("55555555")
  
 
+# a = "漂亮"
+# if a in "你好漂亮":    #或者用["你好","美女"]
+#     print("嘻嘻")
+# else:
+#     print("NO")
+
+#可以用来判断类型
+# a = input("请输入: ")
+# if a =="":
+#     print("不能为空!")
+#     exit()
+# if a in "0123456789":
+#     a = int(a)
+# else:
+#     print("请输入正确的年龄! ")
+#     exit()
+# if a > 5:
+#     print("大")
+# else:
+#     print("小")
+
+a = "adjkhnfl"
+if type(a) is int:
+    print("是数字")
+elif  type(a) is str:
+    print("是字符")
+else:
+    print("其他")
